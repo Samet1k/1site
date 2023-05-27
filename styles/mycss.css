@@ -1,0 +1,128 @@
+a {
+    text-decoration: none;
+}
+
+p {
+    color: aquamarine;
+}
+
+body {
+    background: linear-gradient(90deg, #00137d 0%, #000000 100%);
+}
+
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: aquamarine;
+}
+
+.navbar-brand img {
+    width: 45px;
+}
+.navbar-toggler {
+    background-color: aquamarine;
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #00137d 0%, #000000 100%);
+}
+
+.card {
+    color: aquamarine;
+    background: linear-gradient(270deg, #00137d 0%, #000000 100%);
+}
+
+#carouselExampleIndicators{
+    background-color: #000000;
+}
+
+
+
+.slide-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 2s 10000000000000000 normal forwards;
+}
+
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+
+
+
+
+@media (max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+.media-lings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer {
+    background-color: #1a1a1a;
+}
+
+
+
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
